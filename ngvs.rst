@@ -24,11 +24,9 @@ this effort.
 
 By placement and scheduling, we mean:
 
--  Choose which hardware node to run the VNF on factors such as AAA, ML
-       prediction or MANO
+-  Choose which hardware node to run the VNF on factors such as AAA, ML prediction or MANO
 
--  Start the VNF(s) depending on a trigger e.g. receiving requests such
-       as DHCP, DNS or upon data packet or NULL trigger
+-  Start the VNF(s) depending on a trigger e.g. receiving requests such as DHCP, DNS or upon data packet or NULL trigger
 
 We use the generic term “scheduler” to refer to the placement and
 scheduling component in the rest of this document. We are not including
