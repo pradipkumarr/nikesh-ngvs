@@ -68,19 +68,9 @@ vCPE
 
 vCPE can benefit from a new scheduler in two ways:
 
-1. uCPE devices have very few cores (4-8 typical). Running statically
-       scheduled VMs is inefficient. An event-driven scheduler would
-       help optimize the hardware resources and increase capacity.
+1. uCPE devices have very few cores (4-8 typical). Running statically scheduled VMs is inefficient. An event-driven scheduler would help optimize the hardware resources and increase capacity.
 
-2. vCPE is a bursty NFV use case, where services are not “on” all the
-       time. Legacy provisioning of virtual machines for each VNF
-       significantly reduces resource utilization, which in turn
-       negatively impacts the total-cost-of-ownership (TCO). Recent
-       Intel studies have shown, in certain cases, vCPE saves 30-40% TCO
-       over physical functions. This number is hardly compelling, we
-       believe it needs to be significantly higher to be of any
-       interest. This can be accomplished by increasing utilization,
-       which in turn can be achieved through event-driven scheduling.
+2. vCPE is a bursty NFV use case, where services are not “on” all the time. Legacy provisioning of virtual machines for each VNF significantly reduces resource utilization, which in turn negatively impacts the total-cost-of-ownership (TCO). Recent Intel studies have shown, in certain cases, vCPE saves 30-40% TCO over physical functions. This number is hardly compelling, we believe it needs to be significantly higher to be of any interest. This can be accomplished by increasing utilization, which in turn can be achieved through event-driven scheduling.
 
 IOT/ MEC
 ~~~~~~~~
