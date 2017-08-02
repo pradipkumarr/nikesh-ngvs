@@ -163,7 +163,10 @@ Multiple compute types
 |                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |                                        | -  Support shared storage (e.g. OpenStack Cinder, K8s volumes etc.)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 +----------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
+.. [1]
+   Intel EPA includes DPDK, SR-IOV, CPU and NUMA pinning, Huge Pages
+   etc.
+   
 [OPEN QUESTION] What subset of the Neutron functionality is required
 here?
 
@@ -253,11 +256,5 @@ Each survey is expected to take 3-4 weeks.
 Additional Points to Revisit
 ----------------------------
 
--  Guidance on how to create immutable infrastructure with complete
-       configuration, and benefits to performance and security
-
+-  Guidance on how to create immutable infrastructure with complete configuration, and benefits to performance and security
 -  Guidance on API - VNFM vs. VIM
-
-.. [1]
-   Intel EPA includes DPDK, SR-IOV, CPU and NUMA pinning, Huge Pages
-   etc.
