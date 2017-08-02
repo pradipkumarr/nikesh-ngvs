@@ -107,12 +107,8 @@ example, in three tier architecture of “Web”, “App” and “DB”, follow
 on demand bring up would reduce the attack surface
 
 -  On demand bring up of “DB” service upon “APP” layer request.
-
--  On demand bringup of “APP” service upon “Web” layer authenticates the
-       user.
-
--  On demand bring up of “Web” service upon “DNS” request or upon seeing
-       “SYN” packet
+-  On demand bringup of “APP” service upon “Web” layer authenticates the user.
+-  On demand bring up of “Web” service upon “DNS” request or upon seeing “SYN” packet
 
 Workloads can be brought down upon inactivity or using some application
 specific methods. Thin services (implemented using unikernels & Clear
