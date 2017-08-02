@@ -9,11 +9,9 @@ Created by the OPNFV OpenRetriever Team
 Srinivasa Addepalli
 
 
-v1.0 5/3/17
-
-v1.1 5/16/17
-
-V1.2 7/26/17
+| v1.0 5/3/17
+| v1.1 5/16/17
+v1.2 7/26/17
 
 Motivation
 ----------
