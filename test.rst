@@ -1,3 +1,7 @@
+.. This work is licensed under a Creative Commons Attribution 4.0 International
+.. License.http://creativecommons.org/licenses/by/4.0
+.. (c) Xuan Jia (China Mobile)
+=========================================================================
 OpenRetriever Next Gen VIM & Edge Computing Scheduler Requirements Document
 ===========================================================================
 
@@ -6,7 +10,7 @@ Created by the OPNFV OpenRetriever Team
 | Amar Kapadia
 | Wassim Haddad
 | Heikki Mahkonen
-Srinivasa Addepalli
+| Srinivasa Addepalli
 
 
 | v1.0 5/3/17
@@ -258,4 +262,3 @@ Additional Points to Revisit
 
 -  Guidance on how to create immutable infrastructure with complete configuration, and benefits to performance and security
 -  Guidance on API - VNFM vs. VIM
-
