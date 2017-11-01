@@ -1,3 +1,8 @@
+.. This work is licensed under a Creative Commons Attribution 4.0 International
+.. License.http://creativecommons.org/licenses/by/4.0
+.. (c) Xuan Jia (China Mobile)
+
+==========================================================================
 OpenRetriever Next Gen VIM & Edge Computing Scheduler Requirements Document
 ===========================================================================
 
