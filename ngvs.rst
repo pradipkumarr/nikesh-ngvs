@@ -13,7 +13,7 @@ Created by the OPNFV OpenRetriever Team
 | Amar Kapadia, Aarna
 | Heikki Mahkonen, Ericsson
 | Prem Sankar, Ericsson
-| Srikanth Vavilapalli, Ericsson
+| Srikanth Vavilapalli, Ericsson |
 
 | v1.0 5/3/17
 | v1.1 5/16/17
