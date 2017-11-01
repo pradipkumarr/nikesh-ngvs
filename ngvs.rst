@@ -7,10 +7,13 @@ OpenRetriever Next Gen VIM & Edge Computing Scheduler Requirements Document
 
 Created by the OPNFV OpenRetriever Team
 
-| Amar Kapadia
-| Wassim Haddad
-| Heikki Mahkonen
-Srinivasa Addepalli
+| Srinivasa Addepalli, Intel
+| Frederic Dang Tran, Orange
+| Wassim Haddad, Ericsson
+| Amar Kapadia, Aarna
+| Heikki Mahkonen, Ericsson
+| Prem Sankar, Ericsson
+| Srikanth Vavilapalli, Ericsson
 
 
 | v1.0 5/3/17
