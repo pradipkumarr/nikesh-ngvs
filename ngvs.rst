@@ -2,25 +2,21 @@
 .. License.http://creativecommons.org/licenses/by/4.0
 .. (c) Xuan Jia (China Mobile)
 
+==========================================================================
 OpenRetriever Next Gen VIM & Edge Computing Scheduler Requirements Document
 ===========================================================================
 
 Created by the OPNFV OpenRetriever Team
 
-| Srinivasa Addepalli, Intel
-| Frederic Dang Tran, Orange
-| Wassim Haddad, Ericsson
-| Amar Kapadia, Aarna
-| Heikki Mahkonen, Ericsson
-| Prem Sankar, Ericsson
-Srikanth Vavilapalli, Ericsson
-
+| Amar Kapadia
+| Wassim Haddad
+| Heikki Mahkonen
+| Srinivasa Addepalli
 
 
 | v1.0 5/3/17
 | v1.1 5/16/17
 | v1.2 7/26/17
-v1.3 10/24/17 
 
 Motivation
 ----------
@@ -47,8 +43,8 @@ At a high level, we believe the VIM scheduler must:
 
 -  Support legacy and event-driven scheduling
 
-   -  By legacy scheduling we mean scheduling without any trigger (see above)i.e. the current 
-   technique used by schedulers such as OpenStack Nova.
+   -  By legacy scheduling we mean scheduling without any trigger (see above)
+i.e. the current technique used by schedulers such as OpenStack Nova.
    -  By event-driven scheduling we mean scheduling with a trigger (see above).
 We do not mean that the unikernel or container that is going to run the VNF is
 already running . The instance is started and torn-down in response to traffic.
@@ -336,39 +332,33 @@ person and/or via documentation review, will consist of:
 
 Each survey is expected to take 3-4 weeks.
 
-+---------------------------------------------------------------+-----------------------+
-| CNCF K8s                                                      | De facto choice       |
-+---------------------------------------------------------------+-----------------------+
-| Docker Swarm                                                  | --                    |
-+---------------------------------------------------------------+-----------------------+
-| VMware Photon                                                 | --                    |
-+---------------------------------------------------------------+-----------------------+
-| Intel Clear Container                                         | --                    |
-+---------------------------------------------------------------+-----------------------+
-| Intel Ciao                                                    | --                    |
-+---------------------------------------------------------------+-----------------------+
-| OpenStack Nova                                                | --                    |
-+---------------------------------------------------------------+-----------------------+
-| Mesos                                                         | Srikanth              |
-+---------------------------------------------------------------+-----------------------+
-| Virtlet (VM scheduling by K8s)                                | Amar                  |
-+---------------------------------------------------------------+-----------------------+
-| Kubevirt (VM scheduling by K8s)                               | Amar                  |
-+---------------------------------------------------------------+-----------------------+
-| Kuryr (K8s to Neutron interface)                              | Prem                  |
-+---------------------------------------------------------------+-----------------------+
-| RunV (like RunC) - can it support a VM                        | --                    |
-+---------------------------------------------------------------+-----------------------+
-| Nelson distributed container framework                        | --                    |
-+---------------------------------------------------------------+-----------------------+
-| Nomad                                                         | --                    |
-+---------------------------------------------------------------+-----------------------+
-| `*Multus CNI* <https://github.com/Intel-Corp/multus-cni>`__   | Srini/Prem            |
-+---------------------------------------------------------------+-----------------------+
-| `*Ratchet CNI* <https://github.com/dougbtv/ratchet-cni>`__    | Srini/Prem            |
-+---------------------------------------------------------------+-----------------------+
-| `*CNI-Genie* <https://github.com/Huawei-PaaS/CNI-Genie>`__    | Srini/Prem            |
-+---------------------------------------------------------------+-----------------------+
++------------------------------------------+------------------------------------------------------+
+| CNCF K8s                                 | Srini (talk to Xuan, Frederic, study gap analysis)   |
++------------------------------------------+------------------------------------------------------+
+| Docker Swarm                             |                                                      |
++------------------------------------------+------------------------------------------------------+
+| VMware Photon                            | Srikanth                                             |
++------------------------------------------+------------------------------------------------------+
+| Intel Clear Container                    | Srini                                                |
++------------------------------------------+------------------------------------------------------+
+| Intel Ciao                               | Srini                                                |
++------------------------------------------+------------------------------------------------------+
+| OpenStack Nova                           |                                                      |
++------------------------------------------+------------------------------------------------------+
+| Mesos                                    | Srikanth                                             |
++------------------------------------------+------------------------------------------------------+
+| Virtlet (VM scheduling by K8s)           | Amar                                                 |
++------------------------------------------+------------------------------------------------------+
+| Kubelet (VM scheduling by K8s)           | Amar                                                 |
++------------------------------------------+------------------------------------------------------+
+| Kuryr (K8s to Neutron interface)         | Prem                                                 |
++------------------------------------------+------------------------------------------------------+
+| RunV (like RunC) - can it support a VM   |                                                      |
++------------------------------------------+------------------------------------------------------+
+| Nelson distributed container framework   |                                                      |
++------------------------------------------+------------------------------------------------------+
+| Nomad                                    |                                                      |
++------------------------------------------+------------------------------------------------------+
 
 Additional Points to Revisit
 ----------------------------
